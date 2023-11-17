@@ -3,6 +3,7 @@ site_url: https://Harper-bai.github.io/notes
 site_author: HarperB's
 theme:
   name: material
+  language: zh
   palette:
     #primary: blue grey
     - scheme: default # 日间模式
@@ -37,20 +38,19 @@ theme:
 #repo_url: https://github.com/yhwu-is/Notes # 右上角点击跳转的链接
 #repo_name: GitHub仓库 # 右上角的名字
 nav: 
-  - Welcome: index.md
-  - 法学:
-    - 行政法:
-      - 第一章: 行政法/第一章 行政法概述（待完善）.md
-      - 第二章: 行政法/第二章 行政法基本原则.md
-      - 第三章: 行政法/第三章 行政法律关系的主体.md
-      - 第四章: 行政法/第四章 行政行为.md
-  - 心理学: 
+  - Home: 'index.md'
+  - law: 
+      - 第一章: '第一章 行政法概述（待完善）.md'
+      - 第二章: '第二章 行政法基本原则.md'
+      - 第三章: '第三章 行政法律关系的主体.md'
+      - 第四章: '第四章 行政行为.md'
+  - psycho: 
 
 
 copyright: Copyright &copy; 2023 HarperB
 
-#extra:
-#  generator: false  #删除页脚显示“使用 MkDocs 材料制造”
+extra:
+  generator: false  #删除页脚显示“使用 MkDocs 材料制造”
 #  social:
 #    - icon: fontawesome/brands/github
 #      link: https://github.com/yhwu-is
