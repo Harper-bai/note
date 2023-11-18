@@ -1,12 +1,12 @@
 site_name: HarperB's Notes
 site_url: https://Harper-bai.github.io/notes
-site_author: HarperB's
+site_author: HarperB
 theme:
   name: material
   language: zh
   palette:
     #primary: blue grey
-    - scheme: default # 日间模式
+    - scheme: teal # 日间模式
       primary: indigo # 上方的
       accent: cyan # 链接等可交互元件的高亮色
       toggle:
@@ -34,9 +34,9 @@ theme:
     - search.share #搜索分享按钮
   icon: 
     repo: fontawesome/brands/github #右上角图标
-#edit_uri: edit/main/docs # 编辑按钮跳转的链接 
-#repo_url: https://github.com/yhwu-is/Notes # 右上角点击跳转的链接
-#repo_name: GitHub仓库 # 右上角的名字
+edit_uri: edit/main/docs # 编辑按钮跳转的链接 
+repo_url: https://github.com/Harper-bai/note  # 右上角点击跳转的链接
+repo_name: GitHub仓库 # 右上角的名字
 
 #最小的子目录下要有文件才不会报错
 nav: 
@@ -53,9 +53,9 @@ copyright: Copyright &copy; 2023 HarperB
 
 extra:
   generator: false  #删除页脚显示“使用 MkDocs 材料制造”
-#  social:
-#    - icon: fontawesome/brands/github
-#      link: https://github.com/yhwu-is
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Harper-bai
 #    - icon: fontawesome/solid/paper-plane
 #      link: mailto:<yhwu_is@zju.edu.cn> #联系方式
 
