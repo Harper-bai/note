@@ -38,15 +38,15 @@ theme:
 #repo_url: https://github.com/yhwu-is/Notes # 右上角点击跳转的链接
 #repo_name: GitHub仓库 # 右上角的名字
 
-
+#最小的子目录下要有文件才不会报错
 nav: 
   - Home: 'index.md'
   - 法学: 
     - 行政法:
-      - 第一章: 行政法/第一章 行政法概述（待完善）.md
-      - 第二章: 行政法/第二章 行政法基本原则.md
-      - 第三章: 行政法/第三章 行政法律关系的主体.md
-      - 第四章: 行政法/第四章 行政行为.md
+      - 第一章: xingzhengfa/p1.md
+      - 第二章: xingzhengfa/p2.md
+      - 第三章: xingzhengfa/p3.md
+      - 第四章: xingzhengfa/p4.md
 
 
 copyright: Copyright &copy; 2023 HarperB
