@@ -5,6 +5,12 @@ theme:
   name: material
   language: zh
   palette:
+    - scheme: slate # 夜间模式
+      primary: black 
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: 切换至日间模式
     #primary: blue grey
     - scheme: teal # 日间模式
       primary: indigo # 上方的
@@ -12,12 +18,12 @@ theme:
       toggle:
         icon: material/weather-night # 图标
         name: 切换至夜间模式 # 鼠标悬浮提示
-    - scheme: slate # 夜间模式
-      primary: black 
-      accent: cyan
-      toggle:
-        icon: material/weather-sunny
-        name: 切换至日间模式
+  #  - scheme: slate # 夜间模式
+  #    primary: black 
+  #    accent: cyan
+  #    toggle:
+  #      icon: material/weather-sunny
+  #      name: 切换至日间模式
   features: 
     - navigation.footer
     - navigation.instant #- header.autohide  #自动隐藏
